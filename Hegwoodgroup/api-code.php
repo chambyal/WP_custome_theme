@@ -10,7 +10,7 @@ function send_mailchimp_apis($contact_form) {
 		$formid = $data['_wpcf7'];
 		if (($formid == 43803) || ($formid == 43804)) 
         {
-            $api_key = '899e56c14e054171f0745bcc4e4043b9-us17';
+            $api_key = 'addkey here';
             $list_id = '5628baa14e';
             $status = 'subscribed';
             $email = $_POST["email-49"];
@@ -52,7 +52,7 @@ function send_mailchimp_apis($contact_form) {
             }  
         } 
         else if ($formid == 53270){
-            $api_key = '6e01af1b4b869c36bdd4a78dd5b7b000-us17';
+            $api_key = 'addkeyhere';
             $list_id = 'd8ccf2ccff';
             $status = 'subscribed';
             $email = $_POST["email-49"];
